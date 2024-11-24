@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="111s.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Create Account</h2>
+    <div class="form-group">
+        <label for="first-name">First name *</label>
+        <input type="text" id="first-name" placeholder="Enter your first name">
+    </div>
+    
+    <div class="form-group">
+        <label for="last-name">Last name *</label>
+        <input type="text" id="last-name" placeholder="Enter your last name">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" placeholder="Enter your password">
+    </div>
+
+    <div class="form-group">
+        <label for="confirm-password">Confirm Password *</label>
+        <input type="password" id="confirm-password" placeholder="Confirm your password">
+    </div>
+
+    <div class="form-group">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+    </div>
+
+    <div class="form-group">
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Music"> Music
+        <input type="checkbox" name="hobbies" value="Sports"> Sports
+        <input type="checkbox" name="hobbies" value="Travel"> Travel
+        <input type="checkbox" name="hobbies" value="Movies"> Movies
+    </div>
+
+    <div class="form-group">
+        <label for="source-of-income">Source of Income:</label>
+        <select id="source-of-income">
+            <option value="Employed">Employed</option>
+            <option value="Self-Employed">Self-Employed</option>
+            <option value="Unemployed">Unemployed</option>
+        </select>
+    </div>
+
+    <div class="form-group slider-container">
+        <label for="income">Income:</label>
+        <input type="range" id="income" min="0" max="100" value="20">
+        <span>...K</span>
+    </div>
+
+    <div class="form-group">
+        <label for="profile-picture">Upload Profile Picture:</label>
+        <input type="file" id="profile-picture">
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="18" min="1">
+    </div>
+
+    <div class="form-group">
+        <label for="bio">Bio:</label>
+        <textarea id="bio" placeholder="Tell us about yourself"></textarea>
+    </div>
+
+    <div class="form-group">
+        <button>Create</button>
+    </div>
+
+  </div>
+</body>
+</html>
